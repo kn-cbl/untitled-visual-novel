@@ -1,0 +1,6 @@
+*.rpyc
+*.save
+renpy-*/
+/cache/
+/screenshots/
+/exports/
