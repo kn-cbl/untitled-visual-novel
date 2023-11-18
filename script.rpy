@@ -3,12 +3,72 @@
 define narrator = Character(None, kind=nvl)
 
 label start:
+    scene black_screen
+
+    narrator "My lungs screamed as I caught my breath."
+    narrator "I ran for twenty minutes straight from my workplace to Alice's house."
+    narrator "The road was uphill, but my legs continued regardless."
+
+    nvl clear
+
+    narrator "\"Your girlfriend sent you a letter.\""
+
+    nvl clear
+
+    narrator "I'm done."
+    narrator "That's all the letter told me."
+
+    nvl clear
+
     narrator """
-        {cps=25}
+        It was easier to take the bus, but my brain didn't have any power
+        to think so. I think it was because I met her that the panic easily
+        overcame my fragile rationality.
+    """
+
+    narrator "I reached the front yard of her house. The entrance gate was ajar."
+    narrator "My sweat continuously gushed, and my T-shirt drenched."
+    narrator "Beyond the gate lies my anxiety. Their living room was covered in darkness."
+
+    nvl clear
+
+    narrator "\"Alice!\" I cried so hard I felt my throat reverberate."
+
+    nvl clear
+
+    narrator """
+        In a rush, I tripped over and scraped my knees. It definitely bled,
+        but still, I ran over to their door in desperation.
+    """
+
+    narrator "It was really dark. Anything inside was barely distinguishable."
+
+    nvl clear
+
+    narrator "There was a silhouette."
+    narrator "It noticed me."
+    narrator "It dropped something, and that let out a metal clank."
+
+    nvl clear
+
+    narrator "(See? I know everything. I fucking knew it!)"
+
+    nvl clear
+
+    narrator "\"Alice!\""
+
+    nvl clear
+
+    narrator "The silhouette ran away, straight from where the motorcycle was parked."
+    narrator "My attention, however, was only focused where she was."
+    narrator "That's why... I was reminded, the moment I saw her, that—"
+
+    nvl clear
+
+    narrator """
         {i}
         She prayed her wish by the falling star—\n
         My sweet memory and a hopeful heart,\n
-        {/i}
     """
 
     nvl clear
@@ -17,11 +77,10 @@ label start:
 
     # centered text left align, add spaces between, nvl transparent
     narrator """
-    {cps=25}
-    {i}
-    Moment's bliss and a broken bridge.\n{w=1.0}
-    The sudden storm and its gale of lies,\n{w=1.0}
-    Like a stranger's home in unwanted paradise.\n
+        {i}
+        Moment's bliss and a broken bridge.\n
+        The sudden storm and its gale of lies,\n
+        Like a stranger's home in unwanted paradise.
     """
 
     nvl clear
@@ -29,49 +88,51 @@ label start:
     with dissolve
     
     narrator """
-    {cps=25}
-    {i}
-    All love confined, endured— a sadistic torture.\n
-    A heart discouraged, persisted and twisted.\n
-    {/i}
+        {i}
+        All love confined, endured— a sadistic torture.\n
+        A heart discouraged, persisted and twisted.
     """
 
     nvl clear
 
-    narrator """
-    {cps=25}
-    {i}Alice, I wonder, had you remember?{/i}
-    """
+    narrator "{i}Alice, I wonder, had you remember?"
 
     nvl clear
-    hide living_room_color
+    scene black_screen
+    with fade
 
     narrator """
-        Every single weekday,{w} a normal student goes to school and
-        studies for their own sake.{w} They were the words of every
+        Every single weekday, a normal student goes to school and
+        studies for their own sake. They were the words of every
         single teacher I've met.
     """
 
     narrator """
-        It's been six months since I left Track and Field.{w} I used
-        to be an athlete.{w} They called me their ace until my ankle
-        got injured in an accident.{w} It was just an unfortunate incident.
+        It's been six months since I left Track and Field. I used
+        to be an athlete. They called me their ace until my ankle
+        got injured in an accident. It was just an unfortunate incident.
     """
 
     nvl clear
 
+    narrator "I used to feel hatred for it."
     narrator """
-        I used to feel hatred for it.{w} That night,{w} there were two
-        lousy adults,{w} drunk and driving,{w} and then there's me,{w}
-        a victim of their recklessness.{w} I detested adults strongly,{w}
-        but I hated how my life turned out even more.
+        That night, there were two lousy adults, drunk and driving.
+        Then there's me, a victim of their recklessness. 
+    """
+    narrator """
+        I detested adults strongly, but I hated how my life turned out
+        even more.
     """
 
     narrator """
         I never wanted to be stuck in a mentality in which I coped
-        by blaming other people,{w} even if they fully deserved it.{w}
+        by blaming other people, even if they fully deserved it.
+    """
+
+    narrator """
         The tragic tale of my life—all I could do was laugh at
-        how absurd it is.{w} I could never erase the memory that blooms
+        how absurd it is. I could never erase the memory that blooms
         and haunts me.
     """
 
@@ -80,28 +141,32 @@ label start:
     with fade
 
     narrator """
-        In a clubroom, the room was the same as ever.{w} The reader's club 
+        In a clubroom, the room was the same as ever. The reader's club 
         was the club I ended up with after I quit the last one I joined.
     """
     
     narrator """
-        There were only a few of us.{w} In fact, the members only met its
-        minimum requirement.{w} I, Eve, and the other man whose name I
-        can't recall{w}—he barely attended our club activities{w}—can't
-        blame me for that, honestly.
+        There were only a few of us. In fact, the members only met its
+        minimum requirement.
     """
+    narrator """
+        I, Eve, and the other man whose name I can't recall. He barely 
+        attended our club activities—can't blame me for that, honestly.
+    """
+
+    nvl clear
 
     narrator """
         After a few months of my injury, I was discharged from the 
-        hospital.{w} I could walk just fine,{w} but it was still difficult
-        to run.{w} I'm essentially a crippled person compared to who I was 
+        hospital. I could walk just fine, but it was still difficult
+        to run. I'm essentially a crippled person compared to who I was 
         before.
     """
 
     narrator """
-        In my leisure time, I was reading a book written by Stephen King.{w}
-        It was a horror novel.{w} Apparently, this work was Eve's
-        favorite.{w} I stayed here until the afternoon and read about a
+        In my leisure time, I was reading a book written by Stephen King.
+        It was a horror novel. Apparently, this work was Eve's
+        favorite. I stayed here until the afternoon and read about a
         hundred pages.
     """
 
@@ -110,31 +175,34 @@ label start:
     with dissolve
 
     narrator """
-        Time flowed so fast that I barely noticed.{w} I skipped class,
-        but it didn't mean anything to me.{w} Simply because, one day,
-        I couldn't care less about my grades.{w} I never got curious why,{w}
-        and although I have my own reasons,{w} I would rather keep it to
-        myself.
+        Time flowed so fast that I barely noticed. I skipped class,
+        but it didn't mean anything to me. Simply because, one day,
+        I couldn't care less about my grades.
     """
+    narrator """
+        I never got curious why, and although I have my own reasons,
+        I would rather keep it to myself.
+    """
+
+    nvl clear
 
     narrator """
         A clack of the door as the sound of the wood softly banged
         the wall beside the club entrance had distracted me from
-        reading peacefully.{w} There was a rude visitor.
+        reading peacefully.
     """
+    narrator "There was a rude visitor."
 
     nvl clear
 
     narrator "\"You're in the club room again.\""
     narrator """
-        The stranger intruded rudely,{w} and as she sighed so hard,{w}
+        The stranger intruded rudely, and as she sighed so hard,
         I easily felt how disappointed she was.
     """
-
-    nvl clear
     
     narrator """
-        No, not exactly a stranger.{w} Her name is Eve.{w} She is one
+        No, not exactly a stranger. Her name is Eve. She is one
         of my clubmates.
     """
 
@@ -152,11 +220,11 @@ label start:
     nvl clear
 
     narrator """
-        I didn't say anything.{w} Every ounce of my focus was directed
+        I didn't say anything. Every ounce of my focus was directed
         at the book I'm reading.
     """
     narrator """
-        I could hear her footsteps.{w} They were in an interval fast
+        I could hear her footsteps. They were in an interval fast
         enough for me to sense something ominous.
     """
     
@@ -167,8 +235,8 @@ label start:
     with dissolve
 
     narrator """
-        Before I knew it, she picked up the book that I was reading.{w}
-        I was surprised.{w} Her pretty face and serious demeanor
+        Before I knew it, she picked up the book that I was reading.
+        I was surprised. Her pretty face and serious demeanor
         caught me unguarded.
     """
 
@@ -193,7 +261,7 @@ label start:
     show eve_surprise at center:
         zoom 0.5
     with dissolve
-    pause 2.0
+    pause
     
     nvl clear
     hide eve_surprise
@@ -225,6 +293,7 @@ label start:
 
     narrator "\"You were not like this before...\""
     narrator "\"Yeah... I know.\""
+    narrator "..."
 
     nvl clear
     hide eve_cry
@@ -233,8 +302,8 @@ label start:
     with dissolve
 
     """
-        The pause after was awkward.{w}
-        The atmosphere got heavier as the silence continued.{w}
+        The pause after was awkward.
+        The atmosphere got heavier as the silence continued.
         Eve frowned, seemingly discouraged.
     """
 
@@ -244,7 +313,7 @@ label start:
     with dissolve
     
     """
-        I was unnecessarily rude when she showed concern.{w}
+        I was unnecessarily rude when she showed concern.
         If anything, it was just right to apologize.
     """
 
@@ -285,7 +354,7 @@ label start:
     nvl clear
 
     narrator """
-        \"It was tense.{w} The characters are interesting.{w} I enjoyed how
+        \"It was tense. The characters are interesting. I enjoyed how
         the narration focused on the psychological aspect.\"
     """
 
@@ -312,30 +381,29 @@ label start:
     with dissolve
 
     narrator """
-        Everything turned to normal again after I gave her my opinion.{w}
-        It marked the end of our banter.{w}
+        Everything turned to normal again after I gave her my opinion.
+        It marked the end of our banter.
     """
-    
     narrator """
-        The club room was filled with silence.{w} Its wooden floor
-        was covered with a golden shine.{w} The temperature was just
-        right.{w} It wasn't too hot or too cold.
+        The club room was filled with silence. Its wooden floor
+        was covered with a golden shine. The temperature was just
+        right. It wasn't too hot or too cold.
     """
 
+    nvl clear
+
     narrator """
-        Eve prepared tea and biscuits.{w} This was her offer at the
-        start of the semester:{w} "To anyone who joins the reader's
+        Eve prepared tea and biscuits. This was her offer at the
+        start of the semester: "To anyone who joins the reader's
         club, you'll get free tea and biscuits as long as you read during
         our time."
     """
-
     narrator """
-        She brewed them perfectly,{w} and the aroma that the tea had
-        was soothing.{w} The biscuits brand was unfamiliar to me.
-        The language seemed French—a luxury.{w} Every sweets and tea she
-        offered were certainly delicious.
+        She brewed them perfectly, and the aroma that the tea had
+        was soothing. The biscuits brand was unfamiliar to me.
+        The language seemed French—a luxury.
     """
-    
+    narrator "Every sweets and tea she offered were certainly delicious."
     narrator """
         It was such a shame that not a lot of students were
         interested, but at the same time I prefer it that way.
