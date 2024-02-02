@@ -5,8 +5,40 @@ define narrator = Character(None, kind=nvl)
 label start:
     scene black_screen
 
+    narrator """
+        Pretending to be normal was a waste of time. Even if I try my best to
+        act as one, the world will pull me back to the place where I belong. In
+        my solitude, I am most comfortable. An apathetic life, ruthlessly cold
+        tactics and with strategic words that pierce stronger than a bullet.
+    """
+
+    nvl clear
+
+    narrator """
+        I'm a detective. Not for the police or something private, but for the
+        local mafia which my aunt had some connection with. Cigarettes, rough
+        vocabulary, mostly slang, laughters at the shittiest joke ranging from
+        the funniest I've heard (it's all nonsense), to champagne, wine, beer,
+        vodka, prostitution, women with bare clothes, naked even, and whatever
+        alcoholic drink atop the bar table.
+    """
+
+    narrator """
+        But when it comes to business, there are rats. There are those ambitious
+        kind. Those who are cold-blooded that they don't think twice about
+        murder and betrayal - that's the environment I grew up with. And when
+        the boss tried to give me some adult entertainment, my aunt would always
+        instantly be behind him. Almost like teleporting, beating the shit out
+        of him. Sometimes she just kicks the ass of everyone and leaves
+        unscratched. She's one hell of a scary aunt.
+    """
+
+    nvl clear
+
     narrator "My lungs screamed as I caught my breath."
-    narrator "I ran for twenty minutes straight from my workplace to Alice's house."
+    narrator """
+        I ran for twenty minutes straight from my workplace to Alice's house.
+    """
     narrator "The road was uphill, but my legs continued regardless."
 
     nvl clear
@@ -17,18 +49,27 @@ label start:
 
     narrator "I'm done."
     narrator "That's all the letter told me."
+    narrator """
+        My relationship with her was complicated, yet those words were
+        enough to set my chest ablaze.
+    """
 
     nvl clear
 
     narrator """
         It was easier to take the bus, but my brain didn't have any power
-        to think so. I think it was because I met her that the panic easily
-        overcame my fragile rationality.
+        to think so. I think it was because I met her that the swallowed me.
     """
 
-    narrator "I reached the front yard of her house. The entrance gate was ajar."
+    narrator """
+        I reached the front yard of her house. The entrance gate was ajar.
+    """
+
     narrator "My sweat continuously gushed, and my T-shirt drenched."
-    narrator "Beyond the gate lies my anxiety. Their living room was covered in darkness."
+    narrator """
+        Beyond the gate lies my anxiety. Their living room was entirely
+        covered in darkness.
+    """
 
     nvl clear
 
@@ -51,17 +92,25 @@ label start:
 
     nvl clear
 
-    narrator "(See? I know everything. I fucking knew it!)"
-
-    nvl clear
-
     narrator "\"Alice!\""
 
     nvl clear
 
-    narrator "The silhouette ran away, straight from where the motorcycle was parked."
+    narrator """
+        The silhouette ran away, straight from where the motorcycle
+        was parked.
+    """
     narrator "My attention, however, was only focused where she was."
-    narrator "That's why... I was reminded, the moment I saw her, that—"
+
+    nvl clear
+
+    narrator "That's why..."
+    narrator "I was reminded,"
+    narrator "the moment I saw her lifeless body,"
+
+    narrator ""
+    narrator "Beautifully lying cold on the floor"
+    narrator "That on that day—"
 
     nvl clear
 
@@ -102,15 +151,15 @@ label start:
     with fade
 
     narrator """
-        Every single weekday, a normal student goes to school and
-        studies for their own sake. They were the words of every
-        single teacher I've met.
+        Every single weekday, a normal student goes to school and studies
+        for their own sake. They were the words of every single teacher
+        I've met.
     """
 
     narrator """
-        It's been six months since I left Track and Field. I used
-        to be an athlete. They called me their ace until my ankle
-        got injured in an accident. It was just an unfortunate incident.
+        It's been six months since I left Track and Field. I used to be an
+        athlete. They called me their ace until my ankle got injured in an
+        accident. It was just an unfortunate incident.
     """
 
     nvl clear
