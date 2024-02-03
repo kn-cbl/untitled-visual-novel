@@ -14,6 +14,7 @@ label start:
     # """
 
     call prologue_1
+    call prologue_2
 
     narrator """
         Every single weekday, a normal student goes to school and studies
