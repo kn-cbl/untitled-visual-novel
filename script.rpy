@@ -3,6 +3,8 @@
 define narrator = Character(None, kind=nvl)
 
 label start:
+    # TODO: recheck quotes
+    
     call prelude
 
     nvl clear
