@@ -183,4 +183,3 @@ label prologue_2:
     narrator "A normal life huh? Laughable, like hell that's even possible."
 
     return
-    
