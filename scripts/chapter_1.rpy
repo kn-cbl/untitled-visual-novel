@@ -18,13 +18,26 @@ label chapter_1:
        as I threw the cigarette that I was smoking. 
     """
 
+    nvl clear
+    scene smp_club1_day1_bw
+    with fade
+
     narrator """
-       In a clubroom, the room was the same as ever. The reader's club was the
-       club I ended up with after I quit the last one I joined. There were only
-       a few of us. In fact, the members only met its minimum requirement. I,
-       Eve, and the other man whose name I can't recall — he barely attended our
-       club activities — can't blame me for that, honestly.
+        In a clubroom, the room was the same as ever. The reader's club was the
+        club I ended up with after I quit the last one I joined. 
     """
+
+    narrator """
+        There were only a few of us. In fact, the members only met its minimum
+        requirement.
+    """
+
+    narrator """
+        I, Eve, and the other man whose name I can't recall — he barely attended
+        our club activities — can't blame me for that, honestly.
+    """
+
+    nvl clear
 
     narrator """
        After a few months of my injury, I was discharged from the hospital. I
@@ -45,87 +58,105 @@ label chapter_1:
        it was certainly an experience. It was a fun read and well worth my time.
     """
 
+    nvl clear
+    scene smp_club1_evening1_bw
+    with dissolve
+
     narrator """
-       The time flowed swiftly, I barely noticed. I mean, I fell asleep and
-       skipped class, but at this point, it didn't mean anything to me. Simply
-       because, one day, I couldn't care less about my grades. I never got
+        The time flowed swiftly, I barely noticed. I mean, I fell asleep and
+        skipped class, but at this point, it didn't mean anything to me. Simply
+        because, one day, I couldn't care less about my grades.
+    """
+
+    narrator """
+        I never got
        curious why, and although I have my own reasons, I would rather keep it
        to myself.
     """
 
+    nvl clear
+
     narrator """
-       A clack of the door as the sound of the wood softly banged the wall
-       beside the club entrance had distracted me from reading peacefully. There
-       was a rude visitor. 
+        A clack of the door as the sound of the wood softly banged the wall
+        beside the club entrance had distracted me from reading peacefully.
+    """
+
+    narrator "There was a rude visitor."
+
+    nvl clear
+
+    narrator "\"You're cutting classes in our club room again?\""
+
+    narrator """
+        The stranger intruded rudely, and as she sighed, I figured that
+        something had disappointed her.
     """
 
     narrator """
-       \"You're cutting classes in our club room again?\" The stranger intruded
-       rudely, and as she sighed, I figured that something had disappointed her.
-       Eve was her name. She's one of my clubmates, the president even. She's
-       never demanding or bossy despite the fact, but her moral standards were
-       infectious. If anything, almost no one, not even the professors, won an
-       argument against her.
+        Eve was her name. She's one of my clubmates, the president even. She's
+        never demanding or bossy despite the fact, but her moral standards were
+        infectious. If anything, almost no one, not even the professors, won an
+        argument against her.
     """
 
     nvl clear
-    show eve_neutral at left:
+    show eve_neutral_bw at left:
         xalign 0.1
         zoom 0.5
     with dissolve
 
     narrator """
-       \"Your attendance has been so poor that our class advisor approached me
-       to do something about it.\" 
+        \"Your attendance has been so poor that our class advisor approached me
+        to do something about it.\" 
     """
 
     nvl clear
 
     narrator """
-       I didn't say anything. Every ounce of my focus was directed at the book
-       I'm reading. 
+        I didn't say anything. Every ounce of my focus was directed at the book
+        I'm reading. 
     """
 
     narrator """
-       I could hear her footsteps. They were in an interval fast enough for me
-       to sense something ominous. 
+        I could hear her footsteps. They were in an interval fast enough for me
+        to sense something ominous. 
     """
 
-    hide eve_neutral
+    hide eve_neutral_bw
     with fade
-    show eve_angry at center:
+    show eve_angry_bw at center:
         yalign 1
     with dissolve
 
     narrator """
-       Before i knew it, she picked up the book that I was reading. I was
-       surprised. Her pretty face and serious demeanor caught me unguarded. 
+        Before i knew it, she picked up the book that I was reading. I was
+        surprised. Her pretty face and serious demeanor caught me unguarded. 
     """
 
     nvl clear
-    hide eve_angry
-    show eve_angry at center:
+    hide eve_angry_bw
+    show eve_angry_bw at center:
         zoom 0.5
     with dissolve
 
     narrator """
-       \"This isn't a joke, you could've gotten expelled.\", said Eve as she
-       fixed her posture. 
+        \"This isn't a joke, you could've gotten expelled.\", said Eve as she
+        fixed her posture. 
     """
 
     narrator """
-       \"There's no reason for me to attend classes.\" I calmly retorted. 
+        \"There's no reason for me to attend classes.\" I calmly retorted. 
     """
 
-    hide eve_angry
-    show eve_surprise at center:
+    hide eve_angry_bw
+    show eve_surprise_bw at center:
         zoom 0.5
     with dissolve
     pause
     
     nvl clear
-    hide eve_surprise
-    show eve_aloof at center:
+    hide eve_surprise_bw
+    show eve_aloof_bw at center:
         zoom 0.5
     with dissolve
 
@@ -135,19 +166,19 @@ label chapter_1:
     """
 
     narrator """
-       \"That's not true.\", she argued confidently. \"It's not useless because
-       education is essential.\" 
+        \"That's not true.\", she argued confidently. \"It's not useless because
+        education is essential.\" 
     """
 
     nvl clear
-    hide eve_aloof
-    show eve_neutral at center:
+    hide eve_aloof_bw
+    show eve_neutral_bw at center:
         zoom 0.5
     with dissolve
 
     narrator """
-       \"How? Are you telling me that you use trigonometry everyday? That's
-       stupid.\" 
+        \"How? Are you telling me that you use trigonometry everyday? That's
+        stupid.\" 
     """
 
     narrator "\"You're stupid.\""
@@ -155,8 +186,8 @@ label chapter_1:
     narrator "\"What do you even mean by that?\""
 
     narrator """
-       \"Even if you don't, some people will, like those who would take
-       engineering at college.\" 
+        \"Even if you don't, some people will, like those who would take
+        engineering at college.\" 
     """
 
     narrator """
@@ -165,8 +196,8 @@ label chapter_1:
     """
 
     nvl clear
-    hide eve_neutral
-    show eve_cry at center:
+    hide eve_neutral_bw
+    show eve_cry_bw at center:
         zoom 0.5
     with dissolve
 
@@ -180,8 +211,8 @@ label chapter_1:
     narrator "..."
 
     nvl clear
-    hide eve_cry
-    show eve_worried at center:
+    hide eve_cry_bw
+    show eve_worried_bw at center:
         zoom 0.5
     with dissolve
 
@@ -190,8 +221,8 @@ label chapter_1:
         continued. Eve frowned, seemingly discouraged.
     """
 
-    hide eve_worried
-    show eve_saddest at center:
+    hide eve_worried_bw
+    show eve_saddest_bw at center:
         zoom 0.5
     with dissolve
     
@@ -204,8 +235,8 @@ label chapter_1:
 
     narrator "\"I'm sorry, Eve...\""
     
-    hide eve_saddest
-    show eve_surprise at center:
+    hide eve_saddest_bw
+    show eve_surprise_bw at center:
         zoom 0.5
     with dissolve
 
@@ -224,11 +255,15 @@ label chapter_1:
 
     nvl clear
 
-    narrator "\"Okay, but can you at least attend your class? Your grades wouldn't matter if our professors decided to drop you out.\""
+    narrator """
+        \"Okay, but can you at least attend your class? Your grades wouldn't
+        matter if our professors decided to drop you out.\""
+    """
+
     narrator "\"Alright.\" I sighed dramatically."
 
     nvl clear
-    hide eve_surprise
+    hide eve_surprise_bw
     with dissolve
 
     narrator """
@@ -238,7 +273,7 @@ label chapter_1:
     """
 
     nvl clear
-    show eve_smile at left:
+    show eve_smile_bw at left:
         xalign 0.1
         yalign 1
     with dissolve
@@ -255,8 +290,8 @@ label chapter_1:
         focused on the psychological aspect.\"
     """
 
-    hide eve_smile
-    show eve_happiest at left:
+    hide eve_smile_bw
+    show eve_happiest_bw at left:
         xalign 0.1
         yalign 1
     with dissolve
@@ -264,15 +299,15 @@ label chapter_1:
     narrator "\"I see...\""
 
     nvl clear
-    hide eve_happiest
-    show eve_happiest at left:
+    hide eve_happiest_bw
+    show eve_happiest_bw at left:
         xalign 0.1
         zoom 0.5
     with dissolve
 
     pause 1.0
-    hide eve_happiest
-    show eve_aloof at left:
+    hide eve_happiest_bw
+    show eve_aloof_bw at left:
         xalign 0.1
         zoom 0.5
     with dissolve
@@ -417,7 +452,7 @@ label chapter_1:
         it's such a warm feeling that I don't mind staying inside me.
     """
 
-    narrator "\"Eve, do you mind if I walk with you?\"
+    narrator "\"Eve, do you mind if I walk with you?\""
 
     narrator "She meekly nodded."
 
@@ -810,7 +845,7 @@ label chapter_1:
         itself is quite childish.
     """
 
-    narrator "\"Anyway, there's a customer. Time to work, boys and girls.\"
+    narrator "\"Anyway, there's a customer. Time to work, boys and girls.\""
 
     narrator "\"Right!\" Erika and I answered synchronously."
 
