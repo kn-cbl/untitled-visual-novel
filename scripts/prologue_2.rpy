@@ -28,9 +28,9 @@ label prologue_2:
 
     narrator """
         \"Victor Lates, we met again.\" He was a man with a messy beard and ugly
-        eye bags, and his hair was barely done at all. Underneath his dirty,
-        shabby coat, he collected a familiar badge and presented it towards my
-        face.
+        eye bags, and his hair was barely taken care of at all. Underneath his
+        dirty, shabby coat, he collected a familiar badge and presented it
+        towards my face.
     """
     
     narrator """
@@ -80,11 +80,11 @@ label prologue_2:
 
     narrator "\"And I was listed as a suspect because of the crash?\""
 
-    narrator "\"Yes.\", answered the detective confidently."
+    narrator "\"Yes.\" The detective answered confidently."
 
     narrator """
         \"How does that even work? I don't even own one, more so drive a truck
-        myself. Are you stupid?\"
+        myself.\" Are you stupid? I held my tongue back from saying those words.
     """
 
     narrator """
@@ -180,6 +180,6 @@ label prologue_2:
         Although maybe they have a point. I guess it's possible. I'm really that
         heartless and that cold.
     """
-    narrator "A normal life huh? Laughable, like hell that's even possible."
+    narrator "A normal life. Dreams would truly stay as dreams."
 
     return

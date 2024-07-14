@@ -45,11 +45,10 @@ label prologue_1:
 
     narrator """
         \"Yes, we were informed that you were an athlete before, am I right? A
-        track-and-field star to be specific.\" The doctor rubbed his chin. I can
-        feel his artificial concern gauging my reactions. \"Unfortunately, it is
-        not advisable for you to place your lower body under great stress, at
-        least until it reaches full recovery which will take multiple years or
-        so.\"
+        track-and-field star to be specific.\" The doctor rubbed his chin. He
+        sounds fake, I can feel it. \"Unfortunately, it is not advisable for you
+        to place your lower body under great stress, at least until it reaches
+        full recovery which will take multiple years or so.\"
     """
 
     narrator """
@@ -71,20 +70,22 @@ label prologue_1:
     narrator """
         \"Don't worry about it. You had a head injury as well. Nothing too
         serious but none would doubt even if you fake forgetting your whole
-        biography.\" The doctor laughed stiffly. \"Well, I suppose that's it.
-        Let us meet again in a few weeks, Mr. Lates.\"
+        biography.\" The doctor laughed stiffly as if what I'm going through was
+        a joke. \"Well, I suppose that's it. Let us meet again in a few weeks,
+        Mr. Lates.\"
     """
 
     narrator """
         The two people in white walk out of the room after the conversation,
         almost in a hurry. They were whispering something. I can hear them, but
-        their exchange doesn't make sense to me. Their faces showed worry, but
-        not for me. Definitely not me.
+        their exchange doesn't make sense to me. Their faces showed worry
+        although not directed for me. Definitely not for me.
     """
 
     narrator """
-        \"You see, Julia, I don't want to treat a criminal orphan. He's lucky
-        that Emilia asked me for a favor. That's it.\"
+        \"You see, Julia, I don't want to treat a criminal orphan,\" said the
+        doctor with the same apathetic tone while conversing with me. \"He's
+        lucky that Emilia asked me for a favor. That's it.\"
     """
     
     return

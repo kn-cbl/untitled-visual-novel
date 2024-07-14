@@ -7,11 +7,16 @@ label prologue_3:
     narrator """
         Every single weekday, a normal student goes to school and studies for
         their own sake. They were the words of every single teacher I've met.
+    """
+
+    narrator """
         It's been six months since I left Track and Field. I used to be an
         athlete. They called me their ace until my legs got injured in an
         accident. It was an unfortunate incident that restricted the limits of
         my movements.
     """
+
+    nvl clear
 
     narrator """
         Afterwards, everyone treated me like an alien. My classmates once asked

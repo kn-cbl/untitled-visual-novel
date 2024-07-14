@@ -1,22 +1,29 @@
 label chapter_1:
     narrator """
-       I thought of attending class after my break. Every night, I work
-       part-time at a coffee shop. I lied in my resume about how old I am, but
-       as a barista, I'm apparently skilled enough. It was thanks to my aunt,
-       who was a coffee nerd. She taught me a lot of priceless lessons in life.
+        I thought of attending class after my break. Every night, I work
+        part-time at a coffee shop. I lied in my resume about how old I am, but
+        as a barista, I'm apparently skilled enough. It was thanks to my aunt,
+        who was a coffee nerd. She taught me a lot of priceless lessons in life.
     """
 
     narrator """
-       It would be a lie if I said that I'm too exhausted to study. I guess I
-       just don't feel like it. My attendance has been poor. At some point, I'll
-       be a drop-out student due to my absences. 
+        It would be a lie if I said that I'm too exhausted to study. I guess I
+        just don't feel like it. My attendance has been poor. At some point, I'll
+        be a drop-out student due to my absences. 
     """
 
     narrator """
-       But because of my stubborn indifference towards the future, I had
-       impulsively decided not to. \"Whatever.\", I yawned and stretched my body
-       as I threw the cigarette that I was smoking. 
+        But because of my stubborn indifference towards the future, I had
+        impulsively decided not to. \"Whatever.\", I yawned and stretched my body
+        as I threw the cigarette that I was smoking. 
     """
+
+    narrator """
+        That said, it's a bit boring to stay here without doing anything. I
+        guess I should go to...
+    """
+
+    # TODO: Add options
 
     nvl clear
     scene smp_club1_day1_bw
@@ -333,7 +340,7 @@ label chapter_1:
 
     narrator """
         She brewed them perfectly, and the aroma of the tea had taken me to a
-        place as if I were wandering inside the queen's courtyard. The biscuit
+        place as if I were wandering inside the Queen's courtyard. The biscuit
         brand was unfamiliar to me. The language seemed French — expensive and
         menacingly elite.
     """
@@ -434,8 +441,36 @@ label chapter_1:
     narrator """
         And then afterwards, she dismissed the club for today. I placed the book
         on the bookshelf. She cleaned the tea cups, tea plates, and the plate on
-        which the snacks had been placed. I helped her dry them by wiping them
-        with a dishcloth.
+        which the snacks had been placed. I helped her dry them by wiping the
+        plates with a dishcloth.
+    """
+
+    narrator """
+        \"You could stay here if you want Victor, but I'm afraid that the teachers
+        will give you a report for cutting classes.\"
+    """
+
+    narrator """
+        Eve's passive stare pierced me as if I was berated.
+    """
+
+    narrator "\"Your attendance was recorded absent this morning.\""
+
+    narrator "\"Sorry.\""
+
+    narrator """
+        Sometimes, Eve's character fills me with curiosity. I didn't expect her
+        to go with the flow despite my character. One would normally expect her
+        to report me rather than be an accomplice.
+    """
+
+    narrator "\"I mean, I have work to do later anyway.\""
+
+    narrator "\"You do?\" She asked. Her face was a bit surprised."
+
+    narrator """
+        \"Yeah,\" but I didn't elaborate. I feel like saying more would offend a
+        rich girl.
     """
 
     narrator """
@@ -529,12 +564,12 @@ label chapter_1:
         my legs got injured after the accident, the doctor said that they are
         fine enough to walk or jog as long as I don't abuse my legs too harshly
         or place them under too much physical stress. Obviously, I can never be
-        an athlete anymore. It's true. I can feel it myself. These legs of mine
-        don't work like they used to. I have never tried running all-out again
-        since then. When I was confined at the hospital, all I did was rest and
-        tamer exercises. The nurse stopped me from placing my body under too
-        much physical stress. It's not like I could because the stupid walking
-        sticks were basically glued to me before.
+        an athlete anymore. It's true. I can feel it myself. My legs were
+        awkward. They don't work like they used to. I have never tried running
+        all-out again since then. When I was confined at the hospital, all I did
+        was rest and tamer exercises. The nurse stopped me from placing my body
+        under too much physical stress. It's not like I could because the stupid
+        walking sticks were basically glued to me before.
     """
 
     narrator """
@@ -650,14 +685,70 @@ label chapter_1:
         fashion: a black and white apron, slacks and belt, a white polo, and
         black shoes. The manager and I had the same outfit until our shift,
         which was specifically between seven to twelve. The amount of salary
-        they offered was manageable, but the real reason I applied here was
-        because I like coffee. Although I always felt like there was a whole
-        different reason why, the thought never fully entered my mind.
+        they offered was nice, but the real reason I applied here was because I
+        like coffee. Although there was a much greater purpose for why, it's a
+        thought that I had always brushed off.
     """
 
     narrator """
-        Anyway, Coffee Mania was not as popular as Stabsucks; that's why the
-        workload was lax. The familiar customers had always ordered the same
+        Coffee Mania was not a very popular place compared to most cafes.
+        Everyone was allowed to smoke inside. E-cigs, or the usual. We sell
+        them, too. This kind of place is for people seeking solitude. Even if
+        the room design was neat enough, only a few young couples consider this
+        a dating place—even if it's open 24/7. You'd see them sometimes. They
+        would meet at two in the morning, kissing each other in the lips and
+        donning chokers or other rebellious attire.
+    """
+
+    narrator """
+        Erika had always teased me, \"You're too young to see them.\" I'm an
+        apathetic person when it comes to romance. Whatever they do, it's none
+        of my business. They could talk sweetly all day, telling each other
+        cheesy lines and random flatteries. I wouldn't mind, as long as they
+        were enjoying their time. It's my job as a barista to act mature.
+        However, there are times when things get bad. That's why I gave myself
+        an unwritten rule. Nothing is perfect. Girls and boys could shout at
+        each other. That's okay. Sometimes there are moments where the
+        girlfriend has slapped her boyfriend — a date gone wrong. I think that
+        if Eve or Alice resorted to slapping me, it must've been because I had
+        done something bad. I could understand. What I don't understand,
+        however, is grown men resorting to violence against their loved ones.
+        Why would you take out a lady outside just to hurt her? I was confused.
+        There was one time when these couples were shouting at each other. In
+        the end, the dumb-looking stud punched his girlfriend. Let's just say
+        that I had to interfere.
+    """
+
+    narrator """
+        I still remember when my manager scolded me. Quite a hot-headed shit you
+        got there, son. Violence wouldn't bring us profit. Physical interaction
+        was enough, and it's much cooler. I only listened. That night, I
+        couldn't find it in myself to retort anything. Maybe he was entirely
+        right, or maybe he wasn't. Either way, he's my boss, and that's enough
+        reason to shut up.
+    """
+        
+    narrator """
+        \"What if you impressed his girlfriend, and he came back with a gun?\"
+    """
+
+    narrator """
+        And that's how the Coffee Mania got its second employee, Erika. She was
+        covering her bruise with a bandage during her first day. She is a
+        college student, apparently. She must've seen me as quite a dead weight
+        since I was a high school student. That said, it's almost as if the
+        manager wasn't interested in recruiting competent baristas and
+        waitresses.
+    """
+        
+    narrator "\"She's young and beautiful, that'll attract customers.\""
+
+    narrator "\"Ah, sexual harassment on my first day?\""
+        
+    narrator "She seemed sharp-tongued too if you got to her bad side."
+    
+    narrator """
+        At every early familiar customers had always ordered the same
         meals. That lady with glasses and a high-end laptop likes to buy
         chocolate cake and strawberry frappes, and the man with his iPad loves
         to order low-calorie beverages just like Cafe Americano. I get it. That
@@ -676,10 +767,7 @@ label chapter_1:
 
     narrator "\"Right away.\""
 
-    narrator """
-        \"You look like you're too young to work... or maybe you're just a
-        handsome boy.\"
-    """
+    narrator "\"You look like you're too young to work...\""
 
     narrator "\"Thank you, ma'am.\""
 

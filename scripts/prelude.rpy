@@ -1,53 +1,84 @@
 label prelude:
     scene black_screen
 
-    narrator "My lungs screamed as I caught my breath."
+    narrator "My lungs screamed as I breathed vigorously."
     narrator """
-        I ran for twenty minutes straight from my workplace to Alice's house.
+        I ran for half an hour straight like my life was at stake. My mind was
+        hazy, filled with rash conclusions that I didn't want to happen. It was
+        as if my heart were about to burst. Thoughts that pained me. Words that
+        killed her. The anxiety that I stored became a venom that pushed me. I
+        didn't want her to die. I mean, it's not her fault. Surely, it was just
+        a mistake. That time, I couldn't tell. Before I knew it, I was in front
+        of Alice's house. I'm not even sure if I was late or not, or if there's
+        a chance that I could change anything. That time, I only did what I
+        should. Whether they were right or wrong, it's not for me to decide.
     """
-    narrator "The road was uphill, but my legs continued regardless."
 
-    nvl clear
+    # nvl clear
 
-    narrator "\"Your girlfriend sent you a letter.\""
+    narrator "\"Your girlfriend sent you a message?.\""
 
-    nvl clear
+    narrator "The notification of my phone rang quite soundly."
+
+    # nvl clear
 
     narrator "I'm done."
-    narrator "That's all the letter told me."
-    narrator """
-        My relationship with her was complicated, yet those words were
-        enough to set my chest ablaze.
-    """
 
-    nvl clear
+    # scene bg_letter
 
     narrator """
-        It was easier to take the bus, but my brain didn't have any power
-        to think so. I think it was because I met her that the panic
-        swallowed me.
+        Six letters. It was the first thing that I saw. Those words were enough
+        to tell me what's happening, or about to happen.
     """
+
+    narrator """
+        My co-worker tilted her head in a quizzical fashion. \"Your girlfriend
+        seemed high-maintenance.\" Are you alright? Erika added in a
+        light-hearted manner.
+    """
+
+    narrator """
+        Those few words from the text message were like knives that stabbed me.
+        I quickly headed to the locker and changed. \"Erika, please tell the
+        manager if I didn't return. Tell him that I'm sorry.\" My relationship
+        with Alice was complicated, and my co-workers will probably die not
+        knowing about me or her.
+    """
+
+    # nvl clear
+
+    narrator "\"Ah, wait!\""
+
+    narrator """
+        It was easier to take the bus, but my brain didn't have any power to
+        think so. I think it was because I met her that the panic swallowed me.
+    """
+
+    # scene bg_front_house
 
     narrator """
         I reached the front yard of her house. The entrance gate was ajar.
     """
-
     narrator "My sweat continuously gushed, and my T-shirt drenched."
     narrator """
-        Beyond the gate lies my anxiety. Their living room was entirely
-        covered in darkness.
+        Beyond the gate lies my anxiety. Their living room was entirely covered
+        in darkness.
     """
 
-    nvl clear
+    # nvl clear
 
-    narrator "\"Alice!\" I cried so hard I felt my throat reverberate."
+    narrator "\"Alice!\""
 
-    nvl clear
+    # nvl clear
+    
+    narrator "I cried so hard I felt my throat reverberate."
 
     narrator """
         In a rush, I tripped over and scraped my knees. It definitely bled,
         but still, I ran over to their door in desperation.
     """
+
+    scene black_screen
 
     narrator "It was really dark. Anything inside was barely distinguishable."
 
@@ -64,8 +95,7 @@ label prelude:
     nvl clear
 
     narrator """
-        The silhouette ran away, straight to where the motorcycle
-        was parked.
+        The silhouette ran away, straight to where the motorcycle was parked.
     """
     narrator "My attention, however, was only focused where she was."
 
